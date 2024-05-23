@@ -1,0 +1,521 @@
+*,
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+  
+/* nav */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+
+/* bar */
+
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    /* background-color: rgb(88, 105, 212); */
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    
+  }
+  
+  nav ul li a{
+      text-decoration: none;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      transition: 0s;
+  }
+  
+  ul li a:hover{
+      border-top: 2px solid orange;
+      color: orange;
+      border-bottom: 2px solid orange;
+  }
+  
+  .menu-icon{
+      font-size: 28px;
+      display: none;
+     
+  }
+
+
+  @media (max-width: 768px){
+    nav{
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        /* background-color: #3f3f46; */
+       color: #ffffff;
+       background-image: url(campuran.jpg);
+       background-position: left;
+    }
+    .tampilan-utama{
+        background-position: start;
+    }
+    nav ul{
+       flex-direction: column;
+       width: 100%;
+    }
+    
+    nav ul.hidden{
+        display: none;
+    }
+
+    .menu-icon{
+        align-items: center;
+        display: flex;
+    }
+}
+
+/* tampilan utama */
+
+:root {
+    --primary-color: #a855f7;
+    --primary-color-dark: #9333ea;
+    --secondary-color: #ca8a04;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+  }
+  
+.tampilan-utama{
+    background-image: url(campuran.jpg);
+    background-size: cover;
+}  
+
+.menu-utama{
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .subtitle {
+    letter-spacing: 2px;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .title span {
+    font-weight: 600;
+  }
+  
+  .description {
+    line-height: 1.5rem;
+    color: var(--text-light);
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .action__btns {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .action__btns button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .portfolio {
+    color: var(--primary-color);
+  }
+  
+  .portfolio:hover {
+    background-color: var(--primary-color-dark);
+    color: #ffffff;
+  }
+    
+  .image {
+    display: grid;
+    place-items: center;
+  }
+
+
+  .image img {
+    width: min(25rem, 90%);
+    border-radius: 50%;
+  }
+  
+
+/* tampilan utama */
+
+
+/* cv project web */
+
+body{
+    background-color: rgb(236, 236, 236);
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+}
+
+.unggulan{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+.card-item{
+    background-color: white;
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgb(149, 148, 148);
+    height: auto;
+}
+
+
+
+.img-rpl{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.view{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tools{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.tools1{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 3px;
+}
+
+.tools2{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 3px;
+}
+
+.left{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title1{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.title2{
+    margin-bottom: 10px;
+}
+/* cv project web */
+
+
+/* skiils end education */
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skill{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Kanit", sans-serif;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: auto;
+}
+
+.box{
+    padding: 10px;
+    background-color: rgb(189, 189, 189);
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.karir{
+    width: 100%;
+}
+
+ul{
+    /* margin-top: 20px; */
+}
+
+ul li{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* box 2 */
+
+.wrapper{
+    font-family: "Teachers", sans-serif;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* validasi form */
+
+.akses{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kontak{
+    margin-top: 40px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: auto;
+    padding: 10px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    width: auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    height: 100%;
+  
+}
+
+input{
+    margin-bottom: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+    height: 30px;
+    /* border-radius: 10px; */
+}
+
+textarea{
+    margin-bottom: 30px;
+    width: 400px;
+    background-color: rgb(231, 229, 229);
+    /* border-radius: 10px; */
+    border: none;
+}
+
+.kirim{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+
+/* ~~~~~~~ */
+
+.call-source{
+    padding: 20px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.kontak-me{
+    width: 30%;
+}
+
+.phone-icon{
+    display: flex;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.phone-text{
+    flex-direction: column;
+}
+
+.ab{
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px){
+    /* menu utama */
+
+    .menu-utama{
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .image {
+        grid-area: 1/1/2/2;
+      }
+    
+      .action__btns {
+        margin: auto;
+    }
+    
+
+    /* menu-utama */
+    /* event 1 */
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+    }
+    .card-item{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .card-item:last-of-type{
+        margin-bottom: 20px;
+    }
+    /* event 2 */
+    .container{
+        flex-wrap: wrap;
+    
+    }
+    .box{
+        width: 100%;
+    }
+
+    .wrapper{
+        margin-top: 20px;
+        width: 100%;
+    }
+   /* kontak form */
+   .kontak{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .login{
+    width: 90%;
+   }
+   input{
+    width: 300px;
+   }
+   textarea{
+    width: 300px;
+   }
+   .unggulan{
+    margin-top: 50px;
+   }
+   .call-source{
+    margin-top: 10px;
+   
+}
+
+}
+
+@media (max-width: 490px){
+  input{
+    width: 200px;
+  }
+  textarea{
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px){
+    .login{
+        width: auto;
+        padding: 20px;
+    }
+    form{
+        width: 100%;
+    }
+    nav{
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    align-items: center;
+    background-image: url(campuran.jpg);
+    background-size: cover;
+}
+}
