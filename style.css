@@ -424,6 +424,15 @@ textarea{
 }
 
 
+/* footer */
+ footer{
+    text-align: center;
+    padding: 10px;
+    background-image: url(campuran.jpg);
+    color: #ffffff;
+ }
+/* footer end */
+
 @media (max-width: 768px){
     /* menu utama */
 
