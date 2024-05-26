@@ -164,7 +164,13 @@ nav ul{
     transition: 0.3s;
     cursor: pointer;
   }
-  
+
+   .action__btns button:hover {
+  background-color: tomato;
+  border: 3px solid white;
+  color: white;
+  }
+
   .portfolio {
     color: var(--primary-color);
   }
