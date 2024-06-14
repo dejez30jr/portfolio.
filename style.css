@@ -279,7 +279,7 @@ a{
     margin-left: 10px;
     margin-right: 10px;
     box-sizing: border-box;
-    line-height: 1.5rem;
+    line-height: 1.6;
 /*     font-family: "Roboto", sans-serif;
     font-style: normal; */
     font-family: Arial, sans-serif;
@@ -340,7 +340,7 @@ ul li{
 
 .wrapper{
 /*     font-family: "Teachers", sans-serif; */
-    line-height: 1.5rem;
+    line-height: 1.6;
      font-family: Arial, sans-serif;
      color: #495057;
     box-sizing: border-box;
