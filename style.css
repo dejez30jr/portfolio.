@@ -283,6 +283,7 @@ a{
 /*     font-family: "Roboto", sans-serif;
     font-style: normal; */
     font-family: Arial, sans-serif;
+     color: #495057;
 }
 
 .title2{
@@ -340,8 +341,8 @@ ul li{
 .wrapper{
 /*     font-family: "Teachers", sans-serif; */
     line-height: 1.5rem;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+     font-family: Arial, sans-serif;
+     color: #495057;
     box-sizing: border-box;
     width: 50%;
     margin-top: 30px;
