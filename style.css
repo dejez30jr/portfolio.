@@ -68,7 +68,7 @@ nav ul{
        color: #ffffff;
        background-image: url(campuran.jpg);
        background-position: left;
-       border-radius: 0px 0px 30px 30px;
+/*        border-radius: 0px 0px 30px 30px; */
     }
     .tampilan-utama{
         background-position: start;
