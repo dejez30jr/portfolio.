@@ -68,7 +68,7 @@ nav ul{
        color: #ffffff;
        background-image: url(campuran.jpg);
        background-position: left;
-/*        border-radius: 0px 0px 30px 30px; */
+       border-radius: 0px 0px 30px 30px;
     }
     .tampilan-utama{
         background-position: start;
@@ -147,6 +147,8 @@ nav ul{
     color: var(--text-light);
     color: #ffffff;
     margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+   font-style: normal;
   }
   
   .action__btns {
@@ -210,7 +212,9 @@ body{
 .unggulan{
     text-align: center;
     font-family: "Kanit", sans-serif;
-    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: -5%;
 }
 
 .card{
@@ -223,6 +227,7 @@ body{
     border-radius: 15px;
     padding: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-item{
@@ -279,11 +284,7 @@ a{
     margin-left: 10px;
     margin-right: 10px;
     box-sizing: border-box;
-    line-height: 1.6;
-/*     font-family: "Roboto", sans-serif;
-    font-style: normal; */
-    font-family: Arial, sans-serif;
-     color: #495057;
+    line-height: 1.5rem;
 }
 
 .title2{
@@ -306,13 +307,19 @@ h2{
 }
 
 .container{
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
     justify-content: space-around;
     height: auto;
+    flex-wrap: wrap;
+}
+
+.skill-education{
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .box{
@@ -339,10 +346,10 @@ ul li{
 /* box 2 */
 
 .wrapper{
-/*     font-family: "Teachers", sans-serif; */
-    line-height: 1.6;
-     font-family: Arial, sans-serif;
-     color: #495057;
+    /* font-family: "Teachers", sans-serif; */
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     box-sizing: border-box;
     width: 50%;
     margin-top: 30px;
@@ -355,17 +362,19 @@ ul li{
 
 .akses{
     text-align: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%
 }
 
 .kontak{
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 15px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
     height: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .login{
     width: auto;
@@ -439,6 +448,54 @@ textarea{
 }
 
 
+
+/* my pengalaman */
+
+.card-pengalaman{
+ background-color: white;
+ margin-top: 50px;
+ padding: 15px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ border-radius: 15px;
+}
+
+.keterangan{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.item-pengalaman{
+    width: 20%;
+    box-shadow: 0px 6px 10px rgb(219, 216, 216);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.silat-jpg{
+width: 100%;
+height: 250px;
+border: 10px solid rgb(62, 148, 247);
+}
+
+.ps{
+    padding: 10px;
+}
+
+.judul-pengalaman{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* pengalaman end */
+
+
+
 /* footer */
  footer{
     text-align: center;
@@ -447,6 +504,8 @@ textarea{
     color: #ffffff;
  }
 /* footer end */
+
+
 
 @media (max-width: 768px){
     /* menu utama */
@@ -481,6 +540,10 @@ textarea{
 
     .card-item:last-of-type{
         margin-bottom: 20px;
+    }
+    .unggulan{
+        margin-bottom: 20PX;
+        
     }
     /* event 2 */
     .container{
@@ -517,6 +580,30 @@ textarea{
     margin-top: 10px;
    
 }
+/* pengalaman */
+.card-pengalaman{
+    flex-wrap: wrap;
+}
+.silat-jpg{
+    height: 200px;
+}
+.item-pengalaman{
+    flex-wrap: wrap;
+    width: 45%;
+    margin-top: 10px;
+}
+.judul-pengalaman{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.keterangan{
+    width: 90%;
+}
 
 }
 
@@ -544,5 +631,9 @@ textarea{
     align-items: center;
     background-image: url(campuran.jpg);
     background-size: cover;
+}
+
+.card-item{
+    margin-bottom: 60px;
 }
 }
