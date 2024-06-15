@@ -490,6 +490,33 @@ border: 10px solid rgb(62, 148, 247);
     justify-content: space-between;
 }
 
+.rangkuman-pengalaman{
+    width: 40%;
+    background-color: #a855f7;
+    padding: 20px;
+    height: 200px;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.list-pengalaman{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.all-school{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.list{
+    width: 40%;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    font-family: "arial", sans-serif;
+    font-style: normal;
+}
 
 
 /* pengalaman end */
@@ -604,6 +631,11 @@ border: 10px solid rgb(62, 148, 247);
 .keterangan{
     width: 90%;
 }
+.list{
+ width: auto;
+ margin-right: 10px;
+}
+
 
 }
 
