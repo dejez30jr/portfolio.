@@ -5,7 +5,7 @@ html,body{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-  
+
 /* nav */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
@@ -523,7 +523,7 @@ border: 10px solid rgb(62, 148, 247);
  footer{
     text-align: center;
     padding: 10px;
-    background-color: rgb(41, 41, 41);
+   background-image: url(bintang.jpeg);
     color: #ffffff;
  }
 /* footer end */
