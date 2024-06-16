@@ -27,6 +27,7 @@ nav{
     display: flex;
     padding: 1rem 2rem;
     cursor: pointer;
+    background-image: url(bintang.jpeg);
 }
 
 nav ul{
@@ -97,7 +98,7 @@ nav ul{
   }
   
 .tampilan-utama{
-    background-image: url(campuran.jpg);
+  background-image: url(bintang.jpeg);
     background-size: cover;
      background-attachment: fixed;
 }  
@@ -656,7 +657,7 @@ border: 10px solid rgb(62, 148, 247);
     position: fixed;
     color: aliceblue;
     align-items: center;
-    background-image: url(campuran.jpg);
+   background-image: url(bintang.jpeg);
     background-size: cover;
 }
 
