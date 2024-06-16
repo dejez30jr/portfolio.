@@ -27,7 +27,6 @@ nav{
     display: flex;
     padding: 1rem 2rem;
     cursor: pointer;
-    /* background-color: rgb(88, 105, 212); */
 }
 
 nav ul{
@@ -64,11 +63,8 @@ nav ul{
         flex-wrap: wrap;
         position: fixed;
         width: 100%;
-        /* background-color: #3f3f46; */
-       color: #ffffff;
-       background-image: url(campuran.jpg);
-       background-position: left;
-/*        border-radius: 0px 0px 30px 30px; */
+        color: #ffffff;
+        background-color: rgb(41, 41, 41);
     }
     .tampilan-utama{
         background-position: start;
@@ -103,6 +99,7 @@ nav ul{
 .tampilan-utama{
     background-image: url(campuran.jpg);
     background-size: cover;
+     background-attachment: fixed;
 }  
 
 .menu-utama{
@@ -204,9 +201,7 @@ nav ul{
 /* cv project web */
 
 body{
-    background-color: rgb(236, 236, 236);
-    background-attachment: fixed;
-    font-family: "Poppins", sans-serif;
+/*     background-color: rgb(236, 236, 236); */
 }
 
 .unggulan{
@@ -527,7 +522,7 @@ border: 10px solid rgb(62, 148, 247);
  footer{
     text-align: center;
     padding: 10px;
-    background-image: url(campuran.jpg);
+    background-color: rgb(41, 41, 41);
     color: #ffffff;
  }
 /* footer end */
