@@ -5,7 +5,7 @@ html,body{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+  
 /* nav */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
@@ -64,8 +64,9 @@ nav ul{
         flex-wrap: wrap;
         position: fixed;
         width: 100%;
-        color: #ffffff;
-        background-color: rgb(41, 41, 41);
+       color: #ffffff;
+       background-position: left;
+/*        border-radius: 0px 0px 30px 30px; */
     }
     .tampilan-utama{
         background-position: start;
@@ -98,9 +99,10 @@ nav ul{
   }
   
 .tampilan-utama{
-  background-image: url(bintang.jpeg);
+    background-image: url(bintang.jpeg);
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
+    filter: opacity(10px);
 }  
 
 .menu-utama{
@@ -202,15 +204,18 @@ nav ul{
 /* cv project web */
 
 body{
-/*     background-color: rgb(236, 236, 236); */
+    /* background-color: rgb(236, 236, 236); */
 }
 
 .unggulan{
     text-align: center;
-    font-family: "Kanit", sans-serif;
     width: 100%;
     margin-top: 20px;
     margin-bottom: -5%;
+    border-radius: 20px;
+    font-size: 28px;
+    color: black;
+    font-family: "Kanit", sans-serif;
 }
 
 .card{
@@ -218,12 +223,13 @@ body{
     justify-content: center;
     gap: 2rem;
     margin-top: 0;
-    background-color: white;
+    /* background-color: white; */
     height: auto;
-    border-radius: 15px;
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
+    /* background-image: url(bg-hutan.jpg); */
+    background-size: cover;
 }
 
 .card-item{
@@ -305,7 +311,10 @@ h2{
 .container{
     margin-top: 50px;
     display: flex;
-    background-color: white;
+    /* background-color: white; */
+    /* background-image: url(desa.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
     padding: 20px;
     border-radius: 15px;
     justify-content: space-around;
@@ -316,6 +325,9 @@ h2{
 .skill-education{
     width: 100%;
     margin-bottom: 30px;
+    font-size: 28px;
+    color: black;
+    font-family: "Kanit", sans-serif;
 }
 
 .box{
@@ -359,13 +371,16 @@ ul li{
 .akses{
     text-align: center;
     margin-bottom: 30px;
-    width: 100%
+    width: 100%;
+    font-size: 28px;
+    color: #000000;
+    font-family: "Kanit", sans-serif;
 }
 
 .kontak{
     margin-top: 50px;
     padding: 15px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 15px 15px 0px 0px;
     height: auto;
     display: flex;
@@ -448,7 +463,7 @@ textarea{
 /* my pengalaman */
 
 .card-pengalaman{
- background-color: white;
+ /* background-color: white; */
  margin-top: 50px;
  padding: 15px;
  display: flex;
@@ -461,6 +476,9 @@ textarea{
 .keterangan{
     width: 100%;
     margin-bottom: 30px;
+    font-size: 28px;
+    color: #000000;
+    font-family: "Kanit", sans-serif;
 }
 
 .item-pengalaman{
@@ -473,7 +491,7 @@ textarea{
 .silat-jpg{
 width: 100%;
 height: 250px;
-border: 10px solid rgb(62, 148, 247);
+/* border: 10px solid rgb(62, 148, 247); */
 }
 
 .ps{
@@ -506,9 +524,14 @@ border: 10px solid rgb(62, 148, 247);
     margin-left: 20px;
 }
 
+.date{
+    font-size: 12px;
+}
+
 .list{
     width: 40%;
-    margin-left: 10px;
+    display: flex;
+    /* margin-left: 10px; */
     line-height: 1.5rem;
     font-family: "arial", sans-serif;
     font-style: normal;
@@ -523,7 +546,7 @@ border: 10px solid rgb(62, 148, 247);
  footer{
     text-align: center;
     padding: 10px;
-   background-image: url(bintang.jpeg);
+    background-image: url(campuran.jpg);
     color: #ffffff;
  }
 /* footer end */
@@ -613,6 +636,7 @@ border: 10px solid rgb(62, 148, 247);
 .item-pengalaman{
     flex-wrap: wrap;
     width: 45%;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 .judul-pengalaman{
@@ -630,6 +654,7 @@ border: 10px solid rgb(62, 148, 247);
 .list{
  width: auto;
  margin-right: 10px;
+ margin-top: 10px;
 }
 
 
@@ -657,17 +682,11 @@ border: 10px solid rgb(62, 148, 247);
     position: fixed;
     color: aliceblue;
     align-items: center;
-   background-image: url(bintang.jpeg);
+    background-image: url(campuran.jpg);
     background-size: cover;
 }
 
 .card-item{
     margin-bottom: 60px;
-}
-.date{
-font-size: 16px;
-}
-.ps{
-margin-top: 10px;
 }
 }
