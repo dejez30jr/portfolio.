@@ -553,7 +553,7 @@ height: 250px;
  footer{
     text-align: center;
     padding: 10px;
-    background-image: url(campuran.jpg);
+    background-image: url(bintang.jpeg);
     color: #ffffff;
  }
 /* footer end */
@@ -689,7 +689,7 @@ height: 250px;
     position: fixed;
     color: aliceblue;
     align-items: center;
-    background-image: url(campuran.jpg);
+    background-image: url(bintang.jpeg);
     background-size: cover;
 }
 
