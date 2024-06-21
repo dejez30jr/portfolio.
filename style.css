@@ -550,12 +550,15 @@ height: 250px;
 
 
 /* footer */
- footer{
-    text-align: center;
-    padding: 10px;
-    background-image: url(bintang.jpeg);
-    color: #ffffff;
+ .ftr{
+     display: flex;
+     gap: 2rem;
  }
+
+marquee{
+    background-color: tomato;
+    display: flex;
+}
 /* footer end */
 
 
