@@ -554,11 +554,13 @@ height: 250px;
      display: flex;
      gap: 2rem;
      padding: 10px;
+     color: white;
  }
 
 marquee{
       background-image: url(bintang.jpeg);
     display: flex;
+    color: white;
 }
 /* footer end */
 
