@@ -553,10 +553,11 @@ height: 250px;
  .ftr{
      display: flex;
      gap: 2rem;
+     padding: 10px;
  }
 
 marquee{
-    background-color: tomato;
+      background-image: url(bintang.jpeg);
     display: flex;
 }
 /* footer end */
