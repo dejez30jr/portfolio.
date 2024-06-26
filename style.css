@@ -536,15 +536,15 @@ height: 250px;
 
 /* footer */
  marquee{
+    margin-top: 20px;
+    margin-bottom: -7%;
     text-align: center;
     padding: 10px;
     background-image: url(bintang.jpeg);
     color: #ffffff;
  }
 .ftr{
-    background-image: url(bintang.jpeg);
     color: #ffffff;
-    padding: 10px;
 }
 
 /* footer end */
