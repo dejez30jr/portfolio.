@@ -406,7 +406,6 @@ form{
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid rgb(228, 228, 228);
   
 }
 form label{
@@ -611,6 +610,9 @@ height: 250px;
    main{
     width: auto;
    }
+   form button{
+    margin-top: 20px;
+   }
    .komunikasi{
     width: auto;
     padding: 0;
@@ -667,7 +669,9 @@ height: 250px;
    background-image: url(bintang.jpeg);
     background-size: cover;
 }
-
+form{
+    border: 2px solid rgb(50, 50, 50);
+}
 .card-item{
     margin-bottom: 60px;
 }
