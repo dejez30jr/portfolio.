@@ -541,6 +541,12 @@ height: 250px;
     background-image: url(bintang.jpeg);
     color: #ffffff;
  }
+.ftr{
+    background-image: url(bintang.jpeg);
+    color: #ffffff;
+    padding: 10px;
+}
+
 /* footer end */
 
 
