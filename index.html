@@ -265,53 +265,59 @@
 
 
         <!-- form validasi -->
-        <div id="akses-layanan">
-            <div class="kontak">
-                <!-- judul form -->
-                <div class="akses">
-                    <h2>akses layanan</h2>
+      <h2 class="akses" id="akses-layanan">Akses Layanan</h2>
+         <div class="kontak">
+            <main>
+                <form>
+                    <h1 class="h1">Info bantuan</h1>
+                    <label for="name">Nama:</label>
+                    <input type="text" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required>
+
+                    <label for="massage">Massage:</label>
+                    <textarea type="text" name="massage" rows="4"></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </main>
+
+            <div class="komunikasi">
+                <div class="info-komunikasi">
+                    <i class="ph ph-phone" id="phone"></i>
+                    <div class="isi-komunikasi">
+                        <strong>Phone</strong>
+                        <p>0831-0571-3174</p>
+                    </div>
                 </div>
 
-                <!-- kontak form -->
-                <div class="login" data-aos="zoom-in-right" data-aos-duration="1000">
-                    <form class="form" action="https://formspree.io/f/xdoqjbrz" method="POST">
-                        <input type="text" placeholder="name">
-                        <br>
-                        <input type="text" name="email" placeholder="email">
-                        <br>
-                        <textarea type="text" placeholder="message" cols="25" rows="10"></textarea>
-                        <br>
-                        <input type="submit" class="kirim">
-                    </form>
+                <div class="info-komunikasi">
+                    <i class="ph ph-envelope-simple" id="phone"></i>
+                    <div class="isi-komunikasi">
+                        <strong>Email</strong>
+                        <p>deris414@gmail</p>
+                    </div>
                 </div>
 
-                <!-- kontak me -->
-                <div class="call-source" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <div class="phone-icon">
-                        <i class="fa-solid fa-phone fa-xl"></i>
-                        <div class="phone-text">
-                            <p class="ab">phone</p>
-                            <P>+62 831-0571-3174</P>
-                        </div>
-                    </div>
-                    <div class="phone-icon">
-                        <i class="fa-solid fa-envelope fa-xl"></i>
-                        <div class="phone-text">
-                            <p class="ab">email</p>
-                            <P>derishderis905@gmail.com</P>
-                        </div>
-                    </div>
-                    <div class="phone-icon">
-                        <i class="fa-brands fa-instagram fa-xl"></i>
-                        <div class="phone-text">
-                            <p class="ab">instagram</p>
-                            <P>deraja_id</P>
-                        </div>
+                <div class="info-komunikasi">
+                    <i class="ph ph-instagram-logo" id="phone"></i>
+                    <div class="isi-komunikasi">
+                        <strong>Instagram</strong>
+                        <p>@dz.frontdev</p>
                     </div>
                 </div>
+
+                <!-- <div class="info-komunikasi">
+                    <i class="ph ph-instagram-logo" id="phone"></i>
+                    <div class="isi-komunikasi">
+                        <strong>Instagram</strong>
+                        <p>@dz.frontdev</p>
+                    </div>
+                </div> -->
             </div>
-        </div>
-
+         </div>
+      
       
         <!-- footer -->
 
