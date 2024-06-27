@@ -43,11 +43,11 @@ nav ul{
       align-items: center;
       color: rgb(255, 255, 255);
       font-size: 20px;
-      transition: 0s;
+      transition: 1s;
   }
   
-  ul li a:hover{
-      border-top: 2px solid orange;
+  nav ul li a:hover{
+      /* border-top: 2px solid orange; */
       color: orange;
       border-bottom: 2px solid orange;
   }
@@ -103,6 +103,7 @@ nav ul{
     background-size: cover;
     background-attachment: fixed;
     filter: opacity(10px);
+    border-radius: 0px 0px 20px 20px;
 }  
 
 .menu-utama{
@@ -204,7 +205,6 @@ nav ul{
 /* cv project web */
 
 body{
-    /* background-color: rgb(236, 236, 236); */
 }
 
 .unggulan{
@@ -228,7 +228,6 @@ body{
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    /* background-image: url(bg-hutan.jpg); */
     background-size: cover;
 }
 
@@ -294,6 +293,9 @@ a{
 
 .title2{
     margin-bottom: 10px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
 }
 /* cv project web */
 
@@ -363,6 +365,7 @@ ul li{
     font-style: normal;
     box-sizing: border-box;
     width: 50%;
+    padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -372,16 +375,18 @@ ul li{
 /* validasi form */
 
 .akses{
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Kanit", sans-serif;
     line-height: 1.6;
-    font-size: 33px;
+    font-size: 35px;
 }
 
 .h1{
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .kontak{
@@ -393,7 +398,7 @@ ul li{
 
 main{
     padding: 10px;
-    width: 40%;
+    width: 30%;
     border-radius: 10px;
     line-height: 1.6;
     font-family: Arial, sans-serif;
@@ -406,21 +411,29 @@ form{
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-  
+    border: 2px solid rgb(138, 138, 138);
+    background-color: #e4e5e7;
+    transition: 1s;
+}
+form:hover{
+    border: 1px solid red;
+    box-shadow: 0 6px 10px rgb(55, 55, 55);
 }
 form label{
     margin-top: 10px;
 }
 form input, textarea{
-    padding: 10px;
+    padding: 20px;
+    border: none;
+    border: none;
 }
 
 form button{
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #2466e8;
     color: white;
-    border: none;
 }
 
 #phone{
@@ -474,10 +487,13 @@ form button{
 
 .item-pengalaman{
     width: 20%;
-    box-shadow: 0px 6px 10px rgb(219, 216, 216);
+    /* box-shadow: 0px 6px 10px rgb(219, 216, 216); */
+    border: 2px solid rgb(240, 235, 235);
     margin-top: 40px;
+    border-radius: 10px;
     margin-bottom: 40px;
 }
+
 
 .silat-jpg{
 width: 100%;
@@ -497,7 +513,6 @@ height: 250px;
 
 .rangkuman-pengalaman{
     width: 40%;
-    background-color: #a855f7;
     padding: 20px;
     height: 200px;
     line-height: 1.5rem;
@@ -507,6 +522,10 @@ height: 250px;
 
 .list-pengalaman{
     width: 100%;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: "arial", sans-serif;
+    font-style: normal;
     /* background-color: aqua; */
 }
 
@@ -529,12 +548,23 @@ height: 250px;
 }
 
 
+
 /* pengalaman end */
 
 
 
 /* footer */
- marquee{
+footer{
+    text-align: center;
+    background-image: url(bintang.jpeg);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-family: "arial", sans-serif;
+    font-style: normal;
+}
+ /* marquee{
     margin-top: 20px;
     margin-bottom: -7%;
     text-align: center;
@@ -544,7 +574,7 @@ height: 250px;
  }
 .ftr{
     color: #ffffff;
-}
+} */
 
 /* footer end */
 
@@ -577,7 +607,7 @@ height: 250px;
         gap: 1rem;
     }
     .card-item{
-        width: 90%;
+        width: auto;
         margin-top: 15px;
     }
 
@@ -609,9 +639,14 @@ height: 250px;
    }
    main{
     width: auto;
+    padding: 30px;
+   }
+   form{
+   
    }
    form button{
     margin-top: 20px;
+    border-radius: 10px;
    }
    .komunikasi{
     width: auto;
@@ -620,13 +655,21 @@ height: 250px;
    .unggulan{
     margin-top: 50px;
    }
+   form label{
+    display: none;
+   }
+   form input, textarea{
+    margin-top: 20px;
+    border: none;
+    padding: 20px;
+   }
   
 /* pengalaman */
 .card-pengalaman{
     flex-wrap: wrap;
 }
 .silat-jpg{
-    height: 200px;
+    height: 150px;
 }
 .item-pengalaman{
     flex-wrap: wrap;
@@ -651,7 +694,12 @@ height: 250px;
  margin-right: 10px;
  margin-top: 10px;
 }
-
+.title2{
+    margin-bottom: 10px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+}
 
 }
 
@@ -660,18 +708,16 @@ height: 250px;
 }
 
 @media (min-width: 768px){
-
+    
     nav{
     width: 100%;
     position: fixed;
     color: aliceblue;
     align-items: center;
-   background-image: url(bintang.jpeg);
+    background-image: url(bintang.jpeg);
     background-size: cover;
 }
-form{
-    border: 2px solid rgb(50, 50, 50);
-}
+
 .card-item{
     margin-bottom: 60px;
 }
