@@ -591,6 +591,7 @@ border-radius: 10px 10px 0px 0px;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
     background-color: #dce5f9;
 }
 
@@ -602,6 +603,7 @@ border-radius: 10px 10px 0px 0px;
 
 .text-all{
     background-color: #4179ea;
+    box-shadow: 0 6px 10px rgb(92, 91, 91);
     padding: 20px;
     color: white;
     cursor: pointer;
