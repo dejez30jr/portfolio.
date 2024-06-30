@@ -103,6 +103,7 @@ nav ul{
     background-size: cover;
     background-attachment: fixed;
     filter: opacity(10px);
+    padding: 10px;
 }  
 
 .menu-utama{
@@ -166,7 +167,8 @@ nav ul{
     transition: 0.3s;
     border: 2px solid white;
     cursor: pointer;
-    background-image: url(bintang.jpeg);
+    /* background-image: url(bintang.jpeg); */
+    background-color: #000000;
     backdrop-filter: 10%;
   }
 
@@ -597,7 +599,7 @@ border-radius: 10px 10px 0px 0px;
 
 .card-hoby .text-hoby{
     font-size: 30px;
-    font-size: bold;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -765,12 +767,9 @@ footer{
     border-radius: 10px;
 }
 /* hoby */
-    
 .hoby{
-  margin-bottom: 30%;
+    margin-bottom: 30%;
 }
-}
-
 }
 
 @media (max-width: 320px){
@@ -792,5 +791,8 @@ footer{
 
 .card-item{
     margin-bottom: 60px;
+}
+.tampilan-utama{
+    padding: 40px;
 }
 }
