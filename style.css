@@ -626,6 +626,13 @@ footer{
     font-family: "arial", sans-serif;
     font-style: normal;
 }
+marquee{
+    font-size: 29px;
+    color: red;
+}
+.h1{
+    color: black;
+}
  /* marquee{
     margin-top: 20px;
     margin-bottom: -7%;
