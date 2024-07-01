@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     display: flex;
     padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     background-image: url(bintang.jpeg);
 }
@@ -322,7 +323,6 @@ h2{
 .container{
     margin-top: 50px;
     display: flex;
-    /* background-color: white; */
     /* background-image: url(desa.jpg); */
     background-size: cover;
     background-attachment: fixed;
@@ -505,6 +505,7 @@ form button{
     border-radius: 10px;
     margin-bottom: 40px;
     transition: 1s;
+    text-align: center;
 }
 .item-pengalaman:hover{
     box-shadow: 0 6px 10px rgb(104, 103, 103);
@@ -513,7 +514,7 @@ form button{
 
 .silat-jpg{
 width: 100%;
-height: 350px;
+height: 250px;
 border-radius: 10px 10px 0px 0px;
 /* border: 10px solid rgb(62, 148, 247); */
 }
@@ -551,9 +552,16 @@ border-radius: 10px 10px 0px 0px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
-
+.ps-title{
+    padding: 10px;
+}
 .date{
     font-size: 12px;
+    border: 1px solid rgb(20, 21, 21);
+    /* background-color: #638de1; */
+    /* color: white; */
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .list{
@@ -575,6 +583,7 @@ border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* background-color: rgb(222, 236, 245); */
 }
 
 .judul-hoby{
@@ -713,9 +722,6 @@ marquee{
     width: auto;
     padding: 30px;
    }
-   form{
-   
-   }
    form button{
     margin-top: 20px;
     border-radius: 10px;
@@ -742,11 +748,11 @@ marquee{
     height: auto;
 }
 .silat-jpg{
-    height: 150px;
+    height: 250px;
 }
 .item-pengalaman{
     flex-wrap: wrap;
-    width: 45%;
+    width: auto;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -798,8 +804,5 @@ marquee{
 
 .card-item{
     margin-bottom: 60px;
-}
-.tampilan-utama{
-    padding: 40px;
 }
 }
