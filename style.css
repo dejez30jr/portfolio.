@@ -58,7 +58,11 @@ nav ul{
       display: none;
      
   }
-
+  #ft{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
 
   @media (max-width: 768px){
     nav{
@@ -299,10 +303,20 @@ a{
 }
 
 .title2{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     height: 200px;
     border-radius: 10px;
+}
+.date-card{
+    /* background-color: #2466e8; */
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: end;
+}
+.date-card .dc{
+    border-bottom: 2px solid rgb(129, 129, 129);
 }
 /* cv project web */
 
@@ -514,7 +528,7 @@ form button{
 
 .silat-jpg{
 width: 100%;
-height: 250px;
+height: 350px;
 border-radius: 10px 10px 0px 0px;
 /* border: 10px solid rgb(62, 148, 247); */
 }
@@ -557,11 +571,11 @@ border-radius: 10px 10px 0px 0px;
 }
 .date{
     font-size: 12px;
-    border: 1px solid rgb(20, 21, 21);
+    border-bottom: 1px solid rgb(146, 146, 146);
     /* background-color: #638de1; */
     /* color: white; */
     padding: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .list{
@@ -748,7 +762,7 @@ marquee{
     height: auto;
 }
 .silat-jpg{
-    height: 250px;
+    height: 350px;
 }
 .item-pengalaman{
     flex-wrap: wrap;
@@ -759,7 +773,7 @@ marquee{
 .judul-pengalaman{
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 .date{
     font-size: 10px;
