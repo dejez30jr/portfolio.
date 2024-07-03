@@ -59,9 +59,11 @@ nav ul{
      
   }
   #ft{
+    text-align: center;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid white;
+    display: flex;
   }
 
   @media (max-width: 768px){
@@ -72,9 +74,6 @@ nav ul{
        color: #ffffff;
        background-position: left;
 /*        border-radius: 0px 0px 30px 30px; */
-    }
-    #ft{
-     display: none;
     }
     .tampilan-utama{
         background-position: start;
@@ -797,7 +796,7 @@ marquee{
 }
 }
 
-@media (max-width: 320px){
+@media (max-width: 322px){
  .card-hoby{
     width: 100%;
  }
