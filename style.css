@@ -659,29 +659,18 @@ marquee{
 .h1{
     color: black;
 }
- /* marquee{
-    margin-top: 20px;
-    margin-bottom: -7%;
-    text-align: center;
-    padding: 10px;
-    background-image: url(bintang.jpeg);
-    color: #ffffff;
- }
-.ftr{
-    color: #ffffff;
-} */
-
-/* footer end */
+ 
+/* !!! renovase */
+.renovase{
+    display: none;
+}
 
 
 
 @media (max-width: 768px){
     /* menu utama */
     .tampilan-utama{
-        width: auto;
-    }
-    body{
-        padding: 0;
+        width: 100%;
     }
     .menu-utama{
         padding: 10rem 1rem 5rem 1rem;
@@ -827,7 +816,7 @@ marquee{
 
 }
 
-@media (max-width: 300px){
+@media (max-width: 315px){
   nav{
     display: none;
   }
