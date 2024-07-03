@@ -73,6 +73,9 @@ nav ul{
        background-position: left;
 /*        border-radius: 0px 0px 30px 30px; */
     }
+    #ft{
+     display: none;
+    }
     .tampilan-utama{
         background-position: start;
     }
@@ -674,7 +677,12 @@ marquee{
 
 @media (max-width: 768px){
     /* menu utama */
-
+    .tampilan-utama{
+        width: auto;
+    }
+    body{
+        padding: 0;
+    }
     .menu-utama{
         padding: 10rem 1rem 5rem 1rem;
         text-align: center;
@@ -762,11 +770,11 @@ marquee{
     height: auto;
 }
 .silat-jpg{
-    height: 350px;
+    height: 300px;
 }
 .item-pengalaman{
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -780,7 +788,8 @@ marquee{
     margin-top: 5px;
 }
 .keterangan{
-    width: 90%;
+    width: auto;
+    flex-wrap: wrap;
 }
 .list{
  width: auto;
@@ -803,6 +812,58 @@ marquee{
  .card-hoby{
     width: 100%;
  }
+ .keterangan{
+    font-size: 24px;
+ }
+ .silat-jpg{
+    height: 200px;
+ }
+ #ft{
+    display: none;
+ }
+ .logo-dz{
+    display: none;
+ }
+
+}
+
+@media (max-width: 300px){
+  nav{
+    display: none;
+  }
+  .tampilan-utama{
+    display: none;
+  }
+  .card{
+    display: none;
+  }
+  .container{
+    display: none;
+  }
+  .kontak{
+    display: none;
+  }
+  .hoby{
+    display: none;
+  }
+  .card-pengalaman{
+    display: none;
+  }
+  .akses{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+  .renovase{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+
+  }
 }
 
 @media (min-width: 768px){
