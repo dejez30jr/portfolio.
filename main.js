@@ -4,7 +4,6 @@ const nav = document.querySelector('nav')
 // const li = document.getElementsByTagName("li")
 menuIcon.addEventListener("click", ()=>{
     menulist.classList.toggle("hidden")
-     nav.style.cssText= "border-radius: 15px 15px 15px 15px;  margin-top: 10px;"
 })
 const view = document.getElementById("view")
 view.addEventListener("click", ()=>{
