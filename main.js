@@ -63,3 +63,11 @@ textHoby4.addEventListener("click", function (){
        } ,15000)
 })
 
+const toggles = document.querySelectorAll('.faq-toggle');
+
+toggles.forEach(toggle =>{
+    toggle.addEventListener('click', () =>{
+        toggle.parentNode.classList.toggle('active');
+    })
+})
+
