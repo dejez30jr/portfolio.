@@ -828,7 +828,7 @@ marquee{
 .faq{
     /* background-color: rgb(215, 217, 218); */
     border-radius: 10px;
-    box-shadow: 0 5px 7px rgb(226, 226, 226);
+     border: 1px solid rgb(69, 68, 68);
     margin: 20px 0;
     padding: 30px;
     position: relative;
