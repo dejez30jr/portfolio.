@@ -362,9 +362,9 @@ h2{
 }
 
 .box{
-    padding: 10px;
-    background-color: rgb(189, 189, 189);
+    /* padding: 10px; */
     width: 30%;
+    background-color: #ffffff;
     margin-top: 30px;
     margin-bottom: 5px;
 }
