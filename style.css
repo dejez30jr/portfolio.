@@ -366,7 +366,7 @@ h2{
     background-color: rgb(189, 189, 189);
     width: 30%;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .karir{
@@ -394,9 +394,18 @@ ul li{
     width: 50%;
     padding: 20px;
     margin-top: 30px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
+.education{
+    margin-top: -5%;
+    display: flex;
+}
+
+.ul{
+    /* background-color: #2466e8; */
+}
 
 
 /* validasi form */
@@ -729,6 +738,14 @@ marquee{
         margin-top: 20px;
         width: 100%;
     }
+    .ul{
+        display: fle;
+        margin: 15px;
+    }
+    .all-ul{
+        margin-top: 20px;
+       display: flex;
+    }
    /* kontak form */
    .akses{
     margin-bottom: -10%;
@@ -809,7 +826,7 @@ marquee{
 }
 
 .hsatu{
-    margin-top: 30px;
+    margin: 50px 0 20;
     text-align: center;
     font-weight: bold;
     font-family: "arial", sans-serif;
@@ -828,12 +845,16 @@ marquee{
 .faq{
     /* background-color: rgb(215, 217, 218); */
     border-radius: 10px;
-     border: 1px solid rgb(69, 68, 68);
+    /* box-shadow: 0 3px 5px rgb(8, 8, 8); */
+    border: 1px solid rgb(69, 68, 68);
     margin: 20px 0;
-    padding: 30px;
+   padding: 30px;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease;
+}
+.faq:last-of-type{
+    margin-bottom: 40px;
 }
 
 .faq.active{
