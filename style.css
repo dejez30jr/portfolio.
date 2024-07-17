@@ -117,16 +117,17 @@ nav ul{
     min-height: 100vh;
     max-width: var(--max-width);
     margin: auto;
-    padding: 1rem;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 3rem;
   }
   
   .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 15px;
   }
   
   .subtitle {
@@ -634,17 +635,62 @@ border-radius: 10px 10px 0px 0px;
     border: 1px solid rgb(135, 135, 135);
     width: 40%;
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 3px 3px 3px black;
     background-color: #dce5f9;
 }
-
-.card-hoby .text-hoby{
+.text-hoby{
+    display: none;
+}
+.card-hoby #text-hobi1{
     font-size: 30px;
     font-weight: bold;
+    border-radius: 40px 40px 0px 0px;
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: -15%;
+    border-bottom: 5px solid black;
+}
+.card-hoby #text-hobi2{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40px 40px 0px 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(163, 65, 165);
+    color: white;
+    padding-bottom: 50px;
+    margin-top: -15%;
+    border-bottom: 5px solid black;
+}
+.card-hoby #text-hobi3{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40px 40px 0px 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(146, 216, 105);
+    color: white;
+    padding-bottom: 50px;
+    margin-top: -15%;
+    border-bottom: 5px solid black;
+}
+.card-hoby #text-hobi4{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40px 40px 0px 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(183, 180, 180);
+    color: white;
+    padding-bottom: 50px;
+    margin-top: -15%;
+    border-bottom: 5px solid black;
 }
 
 .text-all{
@@ -653,6 +699,7 @@ border-radius: 10px 10px 0px 0px;
     padding: 20px;
     color: white;
     cursor: pointer;
+    margin-top: 30px;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -819,7 +866,10 @@ marquee{
 }
 /* hoby */
 .hoby{
-    display: none;
+    display: ;
+}
+.card-hoby{
+    width: 90%;
 }
 .judul-hoby{
     display: none;
@@ -841,6 +891,7 @@ marquee{
     margin: 0 auto;
     font-family:'mulish', sans-serif;
     font-family: mushial;
+    display: none;
 }
 .faq{
     /* background-color: rgb(215, 217, 218); */
