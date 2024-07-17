@@ -10,58 +10,35 @@ view.addEventListener("click", ()=>{
 alert('lanjut ke halaman web')
 })
 
-const textHoby1 = document.getElementById('text-hoby1')
-const jpgHoby1 = document.getElementById('jpg-hoby1')
+const textHoby1 = document.getElementById('text-hoby1');
+const textHobi1 = document.getElementById('text-hobi1');
 
-textHoby1.addEventListener("click", function(){
-   jpgHoby1.innerHTML= "FUTSAL"
-   textHoby1.style.display= "none"
-
-   setTimeout(()=>{
-    textHoby1.style.display= "block"
-    jpgHoby1.style.display= "none"
-   } ,15000)
+textHoby1.addEventListener("click",()=>{
+  textHobi1.classList.toggle('text-hoby');
 });
 
 
-const textHoby2 = document.getElementById('text-hoby2')
-const jpgHoby2 = document.getElementById('jpg-hoby2')
+const textHoby2 = document.getElementById('text-hoby2');
+const textHobi2 = document.getElementById('text-hobi2');
 
-textHoby2.addEventListener("click", function (){
-    jpgHoby2.innerHTML= "MARTABAK";
-    textHoby2.style.display="none";
-
-    setTimeout(()=>{
-        textHoby2.style.display= "block"
-        jpgHoby2.style.display= "none"
-       } ,15000)
+textHoby2.addEventListener("click",()=>{
+  textHobi2.classList.toggle('text-hoby');
 })
 
-const textHoby3 = document.getElementById('text-hoby3')
-const jpgHoby3 = document.getElementById('jpg-hoby3')
+const textHoby3 = document.getElementById('text-hoby3');
+const textHobi3 = document.getElementById('text-hobi3');
 
-textHoby3.addEventListener("click", function (){
-    jpgHoby3.innerHTML= "FRONTEND DEVOLOPER";
-    textHoby3.style.display="none";
-
-    setTimeout(()=>{
-        textHoby3.style.display= "block"
-        jpgHoby3.style.display= "none"
-       } ,15000)
+textHoby3.addEventListener("click", ()=>{
+   textHobi3.classList.toggle('text-hoby');
 })
 
-const textHoby4 = document.getElementById('text-hoby4')
-const jpgHoby4 = document.getElementById('jpg-hoby4')
+const textHoby4 = document.getElementById('text-hoby4');
+const textHobi4 = document.getElementById('text-hobi4');
 
-textHoby4.addEventListener("click", function (){
-    jpgHoby4.innerHTML= "Belum ada untuk sekarang (FOKUS KE MASA DEPAN)";
-    textHoby4.style.display="none";
-
-    setTimeout(()=>{
-        textHoby4.style.display= "block"
-        jpgHoby4.style.display= "none"
-       } ,15000)
+textHoby4.addEventListener("click", ()=>{
+  textHobi4.classList.toggle('text-hoby');
 })
+
 
 const toggles = document.querySelectorAll('.faq-toggle');
 
@@ -70,4 +47,3 @@ toggles.forEach(toggle =>{
         toggle.parentNode.classList.toggle('active');
     })
 })
-
