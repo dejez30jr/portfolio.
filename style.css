@@ -859,6 +859,7 @@ marquee{
 .keterangan{
     width: auto;
     flex-wrap: wrap;
+    padding: 15px;
     margin-bottom: -30%;
 }
 .list{
