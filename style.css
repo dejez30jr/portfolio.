@@ -520,6 +520,7 @@ form button{
     color: black;
     font-family: "Roboto", sans-serif;
     line-height: 1.3;
+    padding: 10px;
 }
 
 .item-pengalaman{
