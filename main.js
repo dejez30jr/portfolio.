@@ -47,3 +47,5 @@ toggles.forEach(toggle =>{
         toggle.parentNode.classList.toggle('active');
     })
 })
+
+alert('disarankan menggunkan dpi di atas 350 terimakasih')
