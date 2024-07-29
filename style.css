@@ -309,6 +309,7 @@ a{
     padding: 10px;
     height: 200px;
     border-radius: 10px;
+    overflow: scroll;
 }
 .date-card{
     /* background-color: #2466e8; */
