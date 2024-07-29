@@ -81,6 +81,11 @@ nav ul{
     nav ul{
        flex-direction: column;
        width: 100%;
+        animation: fadeIn .3s linear;
+    }
+    @keyframes fadeIn {
+      100%{
+      transform: scale(1.3);
     }
     
     nav ul.hidden{
