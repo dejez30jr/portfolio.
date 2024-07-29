@@ -5,9 +5,17 @@ const nav = document.querySelector('nav')
 menuIcon.addEventListener("click", ()=>{
     menulist.classList.toggle("hidden")
 })
+
+// featured
 const view = document.getElementById("view")
 view.addEventListener("click", ()=>{
 alert('lanjut ke halaman web')
+})
+
+// cv 
+const cv = document.getElementById("cv")
+cv.addEventListener("click", ()=>{
+alert('maaf belum tersedia')
 })
 
 const textHoby1 = document.getElementById('text-hoby1');
