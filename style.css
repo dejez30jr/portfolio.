@@ -512,10 +512,10 @@ form button{
  margin-top: 10px;
  padding: 10px;
  margin-bottom: 30px;
- height: 800px;
+ height: 600px;
  display: flex;
  justify-content: space-around ;
- align-items: center;
+ align-items: start;
  flex-wrap: wrap;
  border-radius: 15px;
  line-height: 1.6rem;
@@ -553,8 +553,9 @@ border-radius: 10px 10px 0px 0px;
 transition: 1s;
 /* border: 10px solid rgb(62, 148, 247); */
 }
-.silat-jpg:hover{
-   height: 350px;
+
+.item-pengalaman:hover{
+    box-shadow: 0 6px 10px rgb(104, 103, 103);
 }
 
 .ps{
@@ -1085,7 +1086,7 @@ marquee{
 
 @media (min-width: 768px){
     
-    nav{
+ nav{
     width: 100%;
     position: fixed;
     color: aliceblue;
@@ -1097,6 +1098,10 @@ marquee{
 .card-item{
     margin-bottom: 60px;
 }
+
+.silat-jpg:hover{
+    height: 350px;
+ }
 .hsatu{
     display: none;
 }
