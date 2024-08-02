@@ -5,7 +5,6 @@ html,body{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-  
 /* nav */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
@@ -79,9 +78,16 @@ nav ul{
         background-position: start;
     }
     nav ul{
-       flex-direction: column;
-       width: 100%;
-    }
+        width: 100%;
+        flex-direction: column;
+        animation: fadeIn .3s linear;
+      }
+      @keyframes fadeIn {
+        100%{
+          transform: scale(1.4);
+        }
+      }
+    
     nav ul.hidden{
         display: none;
     }
@@ -302,7 +308,10 @@ a{
     margin-right: 10px;
     box-sizing: border-box;
     line-height: 1.5rem;
-     overflow: scroll;
+    overflow: auto;
+}
+.title1::-webkit-scrollbar{
+    display: none;
 }
 
 .title2{
@@ -857,9 +866,9 @@ marquee{
     margin-top: 5px;
 }
 .keterangan{
+    padding: 15px;
     width: auto;
     flex-wrap: wrap;
-    padding: 15px;
     margin-bottom: -30%;
 }
 .list{
