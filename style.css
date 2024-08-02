@@ -548,9 +548,13 @@ form button{
 
 .silat-jpg{
 width: 100%;
-height: 350px;
+height: 250px;
 border-radius: 10px 10px 0px 0px;
+transition: 1s;
 /* border: 10px solid rgb(62, 148, 247); */
+}
+.silat-jpg:hover{
+   height: 350px;
 }
 
 .ps{
