@@ -56,4 +56,4 @@ toggles.forEach(toggle =>{
     })
 })
 
-alert('disarankan menggunkan dpi di atas 350 terimakasih')
+alert('disarankan untuk device mobile menggunkan dpi di atas 350 terimakasih')
