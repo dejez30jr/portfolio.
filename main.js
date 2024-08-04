@@ -5,17 +5,9 @@ const nav = document.querySelector('nav')
 menuIcon.addEventListener("click", ()=>{
     menulist.classList.toggle("hidden")
 })
-
-// featured
 const view = document.getElementById("view")
 view.addEventListener("click", ()=>{
 alert('lanjut ke halaman web')
-})
-
-// cv 
-const cv = document.getElementById("cv")
-cv.addEventListener("click", ()=>{
-alert('maaf belum tersedia')
 })
 
 const textHoby1 = document.getElementById('text-hoby1');
@@ -56,4 +48,15 @@ toggles.forEach(toggle =>{
     })
 })
 
-alert('disarankan untuk device mobile menggunkan dpi di atas 350 terimakasih')
+function hideLoader() {1
+  // Hide the loader after 2 seconds
+  setTimeout(function() {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+  }, 4000); // Adjust the timeout duration as needed
+}
+
+
+alert('disarankan menggunkan dpi di atas 350 terimakasih')
+
+
