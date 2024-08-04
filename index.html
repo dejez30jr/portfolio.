@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-     <link rel="icon" href="dz.jpg" class="titel"/>
+    <link rel="icon" href="dz.jpg" class="titel"/>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&display=swap"
         rel="stylesheet">
@@ -17,15 +17,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-<!--     os -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--     os -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- os end -->
 </head>
 
 <!-- NO COPY PASTE BROW #FRONT END!!!!! -->
 
-<body>
+<body onload="hideLoader()">
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
     <!-- nav -->
+     <div class="all-objek">
     <nav id="nav">
         <h1 class="logo-dz">𝑫𝒛𝟑𝟎</h1>
         <div id="menu-icon" class="menu-icon">
@@ -67,9 +71,9 @@
                 </p>
                 <div class="action__btns">
                     <!-- <button class="hire__me">Hire Me</button> -->
-                    <button class="portfolio" id="cv">
+                    <button class="portfolio">
                         <a
-                            href="">CV.PORTFOLIO</a>
+                            href="https://drive.google.com/file/d/1DhPx4Vm3dAzJoI19yOfAAaf3nHhvJlwX/view?usp=drivesdk">CV.PORTFOLIO</a>
                     </button>
                 </div>
             </div>
@@ -119,7 +123,7 @@
             </div>
         </div>
         <!-- card-item 2 -->
-        <div class="card-item" data-aos="fade-right" data-aos-delay="800" >
+        <div class="card-item" data-aos="fade-right" data-aos-delay="800">
             <img src="HM.png" class="img-rpl" />
             <div class="left">
                 <div class="view">
@@ -144,13 +148,13 @@
             </div>
         </div>
         <!-- card item 3 -->
-        <div class="card-item"  data-aos="fade-right" data-aos-delay="800">
-            <img src="perpuskab.id.png" class="img-rpl" />
+        <div class="card-item" data-aos="fade-right" data-aos-delay="800">
+            <img src="kurir.png" class="img-rpl" />
             <div class="left">
                 <div class="view">
-                    <p>perpuskab.id</p>
+                    <p>web pengiriman barang</p>
                     <i>
-                        <a class="fa-solid fa-right-to-bracket fa-xl" href="https://dejez30jr.github.io/pepuskab.id/"></a>
+                        <a class="fa-solid fa-right-to-bracket fa-xl" href="https://dejez30jr.github.io/testing/"></a>
                     </i>
                 </div>
 
@@ -161,9 +165,9 @@
                 </div>
             </div>
             <div class="title1">
-                <p class="title2">ini adalah tugas saya di kelas XI RPL2 disuruh membuat web apaja dan saya kepikiran 
-                    membuat web perpustakaan dan saya membuat nya hanya membutuhkan 4hari untuk membuat nya lumayan cukup lama
-                    saya meberikan nama perpuskab untuk siswa rpl untuk kedepan nya mulai di buka umum
+                <p class="title2">ini adalah tugas saya di kelas XI RPL2 disuruh membuat web apaja dan saya kepikiran
+                    membuat web perpustakaan dan saya membuat nya hanya membutuhkan 4hari untuk membuat nya lumayan
+                    cukup lama saya meberikan nama perpuskab untuk siswa rpl untuk kedepan nya mulai di buka umum
                 </p>
             </div>
             <div class="date-card">
@@ -179,14 +183,15 @@
                 <h2>SKILLS & EDUCATION</h2>
             </div>
             <!-- box1 -->
-            <div class="box"  data-aos="fade-right" data-aos-delay="800">
+            <div class="box" data-aos="fade-right" data-aos-delay="800">
                 <img src="karir me.png" class="karir" />
             </div>
             <!-- box 2 -->
-            <div class="wrapper"  data-aos="fade-right" data-aos-delay="900">
-                <p class="education">ketika saya belajar saya terus belajar di bidang front-end dan bereksperimen dengan 
-                kerangka kerja baru dan di sini Anda dapat melihat ringkasan keahlian saya di bidang front-end sekian terimakasih
-                    
+            <div class="wrapper" data-aos="fade-right" data-aos-delay="900">
+                <p class="education">ketika saya belajar saya terus belajar di bidang front-end dan bereksperimen dengan
+                    kerangka kerja baru dan di sini Anda dapat melihat ringkasan keahlian saya di bidang front-end
+                    sekian terimakasih
+
                 </p>
                 <div class="all-ul">
                     <ul class="ul">
@@ -209,7 +214,7 @@
         </div>
         <div class="card-pengalaman">
 
-            <div class="item-pengalaman"  data-aos="fade-right" data-aos-delay="800">
+            <div class="item-pengalaman" data-aos="fade-right" data-aos-delay="800">
                 <img src="silat.jpg" class="silat-jpg" />
                 <b class="ps">PENCAK SILAT (SMK NURI)</b>
                 <div class="ps-title">
@@ -223,7 +228,7 @@
                 </div>
             </div>
 
-            <div class="item-pengalaman"  data-aos="fade-right" data-aos-delay="900">
+            <div class="item-pengalaman" data-aos="fade-right" data-aos-delay="900">
                 <img src="db.jpg" class="silat-jpg" />
                 <b class="ps">DRUM BAND (SD 02 RAWASARI)</b>
                 <div class="ps-title">
@@ -236,7 +241,7 @@
                 </div>
             </div>
 
-            <div class="item-pengalaman"  data-aos="fade-right" data-aos-delay="1000">
+            <div class="item-pengalaman" data-aos="fade-right" data-aos-delay="1000">
                 <img src="dj 2.png" class="silat-jpg" />
                 <b class="ps">BASKET (SMP DNC 2)</b>
                 <div class="ps-title">
@@ -355,26 +360,27 @@
             <h2>MY ACTIVITY</h2>
         </div>
         <div class="hoby">
-            <div class="card-hoby"  data-aos="fade-right" data-aos-delay="800">
+            <div class="card-hoby" data-aos="fade-right" data-aos-delay="800">
                 <p class="text-hoby" id="text-hobi1">Play football</p>
                 <strong>MY HOBY</strong>
                 <p id="text-hoby1" class="text-all">click to view</p>
             </div>
 
-            <div class="card-hoby"  data-aos="fade-right" data-aos-delay="900">
+            <div class="card-hoby" data-aos="fade-right" data-aos-delay="900">
                 <p class="text-hoby" id="text-hobi2">Martabak manis</p>
                 <strong>MY FOOD</strong>
                 <p id="text-hoby2" class="text-all">click to view</p>
             </div>
 
-            <div class="card-hoby"  data-aos="fade-right" data-aos-delay="1000">
+            <div class="card-hoby" data-aos="fade-right" data-aos-delay="1000">
                 <p class="text-hoby" id="text-hobi3">FRONTEND DEV</p>
                 <strong>MY DREAM</strong>
                 <p id="text-hoby3" class="text-all">click to view</p>
             </div>
 
-            <div class="card-hoby"  data-aos="fade-right" data-aos-delay="1100">
-                <p class="text-hoby" id="text-hobi4">pertanyaan random👇<a href="https://ngl.link/drriezz">ngl.link/drriezz.com</a></p>
+            <div class="card-hoby" data-aos="fade-right" data-aos-delay="1100">
+                <p class="text-hoby" id="text-hobi4">pertanyaan random👇<a
+                        href="https://ngl.link/drriezz">ngl.link/drriezz.com</a></p>
                 <strong>GIVE ME QUETION </strong>
                 <p id="text-hoby4" class="text-all">click to view</p>
             </div>
@@ -404,7 +410,7 @@
                 </form>
             </main>
 
-            <div class="komunikasi"  data-aos="fade-right" data-aos-delay="800">
+            <div class="komunikasi" data-aos="fade-right" data-aos-delay="800">
                 <div class="info-komunikasi">
                     <i class="ph ph-phone" id="phone"></i>
                     <div class="isi-komunikasi">
@@ -413,7 +419,7 @@
                     </div>
                 </div>
 
-                <div class="info-komunikasi"  data-aos="fade-right" data-aos-delay="900">
+                <div class="info-komunikasi" data-aos="fade-right" data-aos-delay="900">
                     <i class="ph ph-envelope-simple" id="phone"></i>
                     <div class="isi-komunikasi">
                         <strong>Email</strong>
@@ -421,7 +427,7 @@
                     </div>
                 </div>
 
-                <div class="info-komunikasi"  data-aos="fade-right" data-aos-delay="1000">
+                <div class="info-komunikasi" data-aos="fade-right" data-aos-delay="1000">
                     <i class="ph ph-instagram-logo" id="phone"></i>
                     <div class="isi-komunikasi">
                         <strong>Instagram</strong>
@@ -429,7 +435,7 @@
                     </div>
                 </div>
 
-                <div class="info-komunikasi"  data-aos="fade-right" data-aos-delay="1100">
+                <div class="info-komunikasi" data-aos="fade-right" data-aos-delay="1100">
                     <i class="ph ph-map-pin" id="phone"></i>
                     <div class="isi-komunikasi">
                         <strong>Location</strong>
@@ -458,8 +464,8 @@
         <div class="renovase">
             <p>sory your handphone not suport🙏</p>
         </div>
-
-
+        
+ </div>
         <!-- <marquee>
         <div class="ftr">
             <strong>&copy; 2024 DejeZ30</strong>
